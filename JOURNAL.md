@@ -5,6 +5,15 @@ description: "Low power radio transceiver"
 created_at: "2026-07-8"
 ---
 
+# 7/11/26: Decided what type of receiver
+
+After thinking about it some more, I feel that going with the superhet radio would be easier for me to implement and wrap my head around, but it doesn't really match my design goals of creating something compact. Thus, I'm going to try and create an sdr, which seems to work something like this (an image I found online)
+
+<img width="1306" height="527" alt="image" src="https://github.com/user-attachments/assets/f65eae8c-720f-4c72-9578-404a7f01e804" />
+
+
+**Total Time Spent:** 5m
+
 # 7/8/26: Created design goals
 
 I knew that what I wanted to create generally was a small, low-powered radio that could do both SSB phone and CW communication, but I wanted to flesh out a more detailed description.
